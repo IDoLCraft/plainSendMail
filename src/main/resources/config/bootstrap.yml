@@ -1,0 +1,16 @@
+spring:
+  application.name: report-mail
+  application.code: report
+  profiles.active: local
+  mail:
+    protocol: smtp
+    host: smtp.gmail.com
+    port: 465
+    username: idcmaildev@gmail.com
+    password: idc**********
+    debug: true
+    smtp.auth: true
+    smtp.starttls.enable: true
+    smtp.starttls.required: true
+    smtp.ssl.enable: true
+#    test-connection: true

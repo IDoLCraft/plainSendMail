@@ -1,0 +1,9 @@
+{
+  "user": {
+    "lastName": "lastName",
+    "firstName": "firstName",
+    "email": "test@sender.com",
+    "gender": "M",
+    "birthDay": "2000-08-05"
+  }
+}

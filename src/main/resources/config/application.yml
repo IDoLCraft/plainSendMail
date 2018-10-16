@@ -1,0 +1,24 @@
+mail:
+  from: "idcmaildev@gmail.com"
+  bcc: "idcmaildev@gmail.com"
+  subject: "Уведомление"
+  attacheName: "file.pdf"
+  genderParamMale: "Уважаемый"
+  genderParamFemale: "Уважаемая"
+
+---
+spring:
+  profiles: test
+  mail:
+    host: localhost
+    port: 3025
+    protocol: smtp
+    smtp.auth: true
+    username: idcmaildev@gmail.com
+    password: testpwd
+mail:
+  from: "test@receiver.com"
+  bcc: "test@bcc.com"
+  subject: "test subject"
+  message: "test message"
+  attacheName: "file.pdf"
